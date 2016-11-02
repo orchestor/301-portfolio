@@ -1,0 +1,118 @@
+
+
+/*--------------- HEADER --------------*/
+
+header { margin-top: -310px;}
+
+.about-hero {
+    background-image: url(../images/bg-01.svg);
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+}
+
+
+/*--------------- LINKS --------------*/
+
+.ixd { color: #5DAF84;
+        text-decoration: none;}
+
+
+/*--------------- PROCESS SECTION --------------*/
+
+#about-text { margin-top: 12em;}
+
+#about{margin-top: 4em;}
+
+.colmask{
+   position: relative;
+   overflow: hidden;
+   margin: 0px auto;
+   width: 90%;
+}
+.colmid{
+    text-align: center;
+   position: relative;
+   width: 100%;
+   right: 35%;
+}
+.colleft{
+   position: relative;
+   width: 100%;
+   right: 31%;
+}
+.col1{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 28%;
+   left: 103%;
+}
+.col2{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 28%;
+   left: 41%;
+}
+.col3{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 28%;
+   left: 80%;
+}
+	
+.colmask img {
+        width: 140px;
+        margin-left: 25%;
+		margin-right: 25%;
+	}
+
+.colmask h3 { text-align: center;}
+	
+
+
+
+/* PROCESS THREE COLUMN */
+
+/*#pagewrap {
+	padding: 5px;
+	width: 1000px;
+	margin: 0px auto;
+    text-align: center;
+}
+
+
+#pagewrap img {
+    width: 140px;
+    padding-left: 70px;
+
+}
+
+#content {
+	width: 80px;
+	float: left;
+	padding: 40px 0px;  
+}
+
+
+#middle {
+	width: 80px;
+	float: left;
+	padding: 40px 60px;
+	margin: 0px 200px 0px 200px;
+}
+
+#sidebar {
+	width: 80px;
+	padding: 40px 40px 0px 0px;
+	float: left;
+}
+
+
+#content p {text-align: justify;}
+#middle p {text-align: justify;}
+#sidebar p {text-align: justify;}*/
+
+
