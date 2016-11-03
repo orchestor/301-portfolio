@@ -8,7 +8,7 @@ header { margin-top: -310px;}
     background-image: url(../images/bg-01.svg);
     background-size: cover;
     background-position: center center;
-    height: 450px;
+    height: 470px;
 }
 
 
@@ -22,7 +22,33 @@ header { margin-top: -310px;}
 
 #about-text { margin-top: 12em;}
 
-#about{margin-top: 4em;}
+.about{
+    text-align: center;
+    margin-top: 4em;}
+
+.stages { max-width: 150px;}
+
+.about p { max-width: 650px;}
+
+
+.what-i-do img { max-width: 850px; 
+                    margin-top: 2em;}
+
+
+
+
+
+/*.float-left {
+             float: left;
+             margin-left: 15em;
+             padding: 1em;}
+
+.float-right {
+             float: right;
+             margin-right: 1em;
+             margin-top: 1em;}*/
+
+
 
 .colmask{
    position: relative;
@@ -102,12 +128,6 @@ header { margin-top: -310px;}
 	float: left;
 	padding: 40px 60px;
 	margin: 0px 200px 0px 200px;
-}
-
-#sidebar {
-	width: 80px;
-	padding: 40px 40px 0px 0px;
-	float: left;
 }
 
 

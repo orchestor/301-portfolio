@@ -30,7 +30,7 @@ nav a:hover { color: #4AA1BC;
         color: #fff;
         text-decoration: none;
        padding: 26px 20px;
-        font-size: 0.9em;}
+        font-size: 0.95em;}
 
 
 
@@ -45,7 +45,7 @@ nav a:hover { color: #4AA1BC;
         top: 0;
         left: 0;
         margin: 0 auto;
-        padding: 0.7em;
+        padding: 0.9em;
         width: 100%;
         background-color: rgba(110, 195, 153, 1);
         
@@ -80,15 +80,15 @@ nav li a:hover {
     background-image: url(../images/bg-01.svg);
     background-size: cover;
     background-position: center center;
-    height: 750px;
+    height: 726px;
 }
 
-header { margin-top: -550px;}
+header { margin-top: -570px;}
 
 
 
 .animatedimage {
-    max-width: 110px;
+    max-width: 130px;
     animation: fadeAndScale 1s ease-in;
     transform-origin: center bottom;
 }
@@ -110,7 +110,7 @@ header { margin-top: -550px;}
     margin-top: 0.3em;
     color: #fff;
     letter-spacing: 2px;
-    font-size: 3.2em;
+    font-size: 3.5em;
     font-weight: 800;
     animation: fadeAndScale 1.5s ease-in;
     transform-origin: center bottom;
@@ -123,7 +123,7 @@ header { margin-top: -550px;}
     color: #fff;
     letter-spacing: 1px;
     max-width: 650px;
-    font-weight: 300;
+    font-weight: 100;
     animation: fadeAndScale 1.5s ease-in;
     transform-origin: center bottom;
     }
@@ -153,7 +153,7 @@ a{ color: #002935;
 
 .arrow img { 
     margin-top: 3em;
-    width: 50px;
+    width: 55px;
     opacity: 0.8;
     animation: fadeAndScale 2s ease-in;
     transform-origin: center bottom;
@@ -175,7 +175,7 @@ header {
 h2 {
     color: #2D5A71;
     text-align: center;
-    font-size: 2.7em;
+    font-size: 3em;
     font-weight: bold;
     letter-spacing: 3px;
     margin-top: 1.5em;
@@ -198,7 +198,7 @@ p {
 /*---------PORTFOLIO-----*/
 
 
-.portfolio-intro { margin-top: 4em;}
+.portfolio-intro { margin-top: 5.5em;}
 
 .work-intro { 
     margin-top: 2em;
@@ -279,7 +279,7 @@ hr {
 	}
 	.caption-style-4 .caption-text h1{
 		text-transform: uppercase;
-		font-size: 2.5em;;
+		font-size: 3em;;
         text-align: center;
 
 	}
@@ -287,10 +287,10 @@ hr {
 		z-index: 6;
 		color: #fff;
 		position: absolute;
-		width: 450px;
+		width: 540px;
 		height: 200px;
-		top:100px;
-        margin-left: 80px;
+		top:110px;
+        margin-left: 50px;
 	}
 
 
@@ -318,7 +318,7 @@ hr {
             margin-top: 1.5em;
             margin-bottom: -0.5em;}
 
-.contact-home-title { margin-top: 18.3em;}
+.contact-home-title { margin-top: 17.8em;}
 
 .home-contact-button {  
     margin-top: 2em;
@@ -349,7 +349,7 @@ hr {
     padding-bottom: 50px;
 }
 
-#contact hr { margin-top: -3em;}
+#contact hr { margin-top: -3.5em;}
 
 
 .contact-title { 
@@ -400,48 +400,6 @@ hr {
 
 
 
-/*.button {
-  display: inline-block;
-  border-radius: 5px;
-  background-color: #F0E3BC;
-  border: 3px solid #F0E3BC;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 15px;
-  padding: 10px;
-  width: 200px;
-  cursor: pointer;
-  margin: 5px;
-  color: #002935;
-  font-family: 'Quattrocento Sans', sans-serif;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -30px;
-}
-
-.button:hover span {
-  padding-right: 20px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}*/
-
-
-
 /*-----FOOTER-----*/
 
 footer { background-image: url(../images/bg-01.svg);
@@ -469,10 +427,10 @@ footer p {
 .bg-studycube{ background-image: url(../images/case1.png);
     background-size: cover;
     background-position: center center;
-    height: 450px;
+    height: 470px;
 }
 
-.case-intro { margin-top: 12em;}
+.case-intro { margin-top: 16em;}
 
 .brief { margin-top: 10em;}
 
@@ -506,11 +464,11 @@ footer p {
 
 .sketches img {
     margin-top: -0.4em;
-    width: 471.2px;
+    width: 424px;
     border: none;
     }
 
-.approach { margin-top: -1em;}
+.approach { margin-top: -2em;}
 
 
 .green { 
@@ -519,15 +477,23 @@ footer p {
     text-align: center;
 }
 
+.outcome{ text-align: center;}
 
-.outcome p { margin-top: 2em;}
+.outcome p { margin-top: 2em;
+            text-align: left;}
 
 .iphone-app{ width: 800px;
             margin-top: 2em;
             margin-bottom: 2em;}
 
-.finished-app { width: 800px;
-    margin-top: 2em;}
+.outcome h2{ margin-top: 1em;}
+
+.finished-app { 
+    width: 800px;
+    margin-top: -1em;
+    margin-bottom: -2em;}
+
+
 
 
 /*-----CASESTUDY2 - BRAND-----*/
@@ -535,9 +501,11 @@ footer p {
 .bg-brand{ background-image: url(../images/brand1.png);
     background-size: cover;
     background-position: center center;
-    height: 450px;
+    height: 470px;
 }
 
+.guidelines { color: #5DAF84;
+        text-decoration: none;}
 
 
 
@@ -545,6 +513,15 @@ footer p {
 
 
 /*-----CASESTUDY4 - MASTER & APPRENTICE-----*/
+
+.bg-case4 {
+    background-image: url(../images/case-four-bg.png);
+    background-size: cover;
+    background-position: center center;
+    height: 470px;
+    
+    
+}
 
 
 
