@@ -110,7 +110,7 @@ header { margin-top: -570px;}
     margin-top: 0.3em;
     color: #fff;
     letter-spacing: 2px;
-    font-size: 3.5em;
+    font-size: 3.8em;
     font-weight: 800;
     animation: fadeAndScale 1.5s ease-in;
     transform-origin: center bottom;
@@ -507,6 +507,8 @@ footer p {
 .guidelines { color: #5DAF84;
         text-decoration: none;}
 
+.element { color: #5DAF84;
+        text-decoration: none;}
 
 
 /*-----CASESTUDY3 - NARRATIVE WEBSITE-----*/

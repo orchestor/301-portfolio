@@ -2,7 +2,7 @@
 
 /*--------------- HEADER --------------*/
 
-header { margin-top: -310px;}
+header { margin-top: -330px;}
 
 .about-hero {
     background-image: url(../images/bg-01.svg);
@@ -20,7 +20,9 @@ header { margin-top: -310px;}
 
 /*--------------- PROCESS SECTION --------------*/
 
-#about-text { margin-top: 12em;}
+#about-text { margin-top: 10em;}
+
+.about-me { font-size: 1.3em;}
 
 .about{
     text-align: center;
