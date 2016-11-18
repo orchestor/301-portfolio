@@ -519,6 +519,7 @@ footer p {
 }
 
 .style-tile {color: #5DAF84;
+            font-size: 2em;
              text-decoration: none;}
 
 /*-----CASESTUDY4 - MASTER & APPRENTICE-----*/
@@ -527,9 +528,7 @@ footer p {
     background-image: url(../images/case-four-bg.png);
     background-size: cover;
     background-position: center center;
-    height: 470px;
-    
-    
+    height: 470px; 
 }
 
 
