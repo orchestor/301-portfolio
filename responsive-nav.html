@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navigation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      nav {
+        background: rgba(110, 195, 153, 1);
+        overflow: hidden;
+      }
+      .res-nav {
+        float: left;
+        color: #fff;
+        padding: 15px;
+        overflow: hidden;
+      }
+      .logo {
+          float: left;
+        margin-top: -0.4em;
+    margin-bottom: -0.6em;
+    margin-left: 0.5em;
+      }
+      .handle {
+        float: right;
+        background: #69b78e;
+        color: #fff;
+        border: none;
+        font-size: 22px;
+        padding: 3px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+        display: none;
+      }
+      nav a {
+        text-decoration: none;
+        color: inherit;
+      }
+      nav ul {
+        overflow: hidden;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        transition: max-height 0.5s;
+        -webkit-transition: max-height 0.5s;
+        -ms-transition: max-height 0.5s;
+        -moz-transition: max-height 0.5s;
+        -o-transition: max-height 0.5s;
+      }
+      nav ul li {
+        float: right;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 20px;
+      }
+      nav ul li:hover {
+        background-color: #69b78e;
+        transition: all 0.3s ease-in-out; 
+      }
+      
+      @media screen and (max-width: 767px) {
+        .res-nav {
+          float: none;
+        }
+        nav ul {
+          background: #6fc39a;
+          max-height: 0;
+          width: 100%;
+        }
+        nav ul.show {
+          max-height: 20em;
+        }
+        nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 15px;
+        }
+        .handle {
+          display: inline;
+        }
+      }
+    </style>
+      
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.handle').on('click', function(){
+          $('nav ul').toggleClass('show');
+        });
+      });
+    </script>
+      
+      
+  </head>
+  <body>
+    <nav>
+      <div class="res-nav">
+        <a href="index.html"><img class="logo" src="icon.svg" width="40" height="40" alt="Monogram"/></a>
+        <button class="handle">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    
+  </body>
+</html>
