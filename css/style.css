@@ -9,7 +9,7 @@
 
 p, h1, h2, h3, h4, blockquote, li
 {
-        max-width: 800px;
+        max-width: 750px;
         min-width: 320px;
         font-family:'Quattrocento Sans', Arial, sans-serif;
         margin: auto;   
@@ -23,6 +23,8 @@ p, h1, h2, h3, h4, blockquote, li
 nav {
         background: rgba(110, 195, 153, 1);
         overflow: hidden;
+        /*position: fixed;*/
+        z-index: 10;
       }
       .res-nav {
         color: #fff;
@@ -440,11 +442,11 @@ footer p {
 .cube-icons img {width: 150px;
                     margin-bottom: -3em;}
 
-.cube-icons p { width: 550px;
+.cube-icons p { max-width: 550px;
                 margin-top: 3.5em;}
 
 .sketches {
-    width: 100%;
+    max-width: 100%;
     margin-top: 3.5em;
     }
 
@@ -479,14 +481,14 @@ footer p {
 .outcome p { margin-top: 2em;
             text-align: left;}
 
-.iphone-app{ max-width: 800px;
+.iphone-app{ max-width: 750px;
             margin-top: 2em;
             margin-bottom: 2em;}
 
 .outcome h2{ margin-top: 1em;}
 
 .finished-app { 
-    max-width: 800px;
+    max-width: 750px;
     margin-top: -1em;
     margin-bottom: 1.5em;}
 
@@ -508,6 +510,17 @@ footer p {
         text-decoration: none;}
 
 .site-button { margin-bottom: 3em;}
+
+.brand-img { text-align: center;}
+
+.brand-identity { max-width: 750px;
+                  margin-bottom: 1em;}
+
+.site-sketches {margin-top: 1em;}
+
+.site-mockup { 
+    max-width: 700px;
+    margin-bottom: 2em;}
 
 
 /*-----CASESTUDY3 - NARRATIVE WEBSITE-----*/
@@ -545,14 +558,120 @@ footer p {
           width: 100%;
         }
         nav ul.show {
-          max-height: 20em;
+          max-height: 25em;
         }
         nav ul li {
+          display: inline-block;
           box-sizing: border-box;
           width: 100%;
-          padding: 13px;
+          padding: 15px;
         }
         .handle {
           display: inline;
         }
       }
+
+@media screen and (max-width: 1200px) { 
+
+.caption-style-4 img { width:590px;
+                        text-align: center;}
+    
+.caption-style-4 .blur{height: 590px;
+		               width: 750px;}
+
+.caption-style-4 .caption-text h1{width:570px;}
+    
+.caption-style-4 .caption-text{
+		top: 110px;
+        margin-left: 20px;
+	}
+
+}
+
+
+/*-----TABLET-------*/
+@media (max-width: 50em) {
+     
+p, h1, h2, h3
+{
+        width: 90%;}
+
+header { margin-top: -520px;}
+    
+.hero {height: 600px;}
+    
+.title{font-size: 3em;}
+    
+.arrow img { margin-top: 2em;
+             width: 45px;}
+
+hr { width: 150px;
+     margin-left: 40%;}
+
+.caption-style-4 img { width:750px;
+                        text-align: center;}
+    
+.caption-style-4 .blur{height: 640px;
+		               width: 750px;}
+
+.caption-style-4 .caption-text h1{width:570px;}
+    
+.caption-style-4 .caption-text{
+		top: 150px;
+        margin-left: 100px;
+	}
+
+
+
+/*--------SMARTPHONE--------*/
+@media (max-width: 33em) {
+
+    p, h1, h2, h3
+{
+        width: 90%;}
+    
+    header { margin-top: -530px;}
+    
+    .title {font-size: 2.5em;}
+    
+    h2 {font-size: 2em;}
+    
+    hr { 
+     width: 150px;
+     margin-left: 35.5%;
+     margin-top: -1.2em;}
+    
+    
+    .work-intro {width: 470px;}
+    
+
+    .contact-home-title { margin-top: 44.5em;}
+    
+    .contact-home-title {
+        margin-bottom: 0.9em;}
+    
+    .social img { display: inline;
+                    width: 40px;}
+    
+    
+.caption-style-4 img { width:550px;
+                        text-align: center;}
+    
+.caption-style-4 .blur{height: 550px;
+		               width: 550px;}
+
+.caption-style-4 .caption-text h1{
+    font-size: 2em;
+    margin-left: -80px;
+    width:490px;}
+    
+.caption-style-4 .caption-text{
+		top: 90px;
+        margin-left: 90px;
+        width: 200px;
+	}
+
+
+.finished-app {max-width: 450px;}
+    
+   
