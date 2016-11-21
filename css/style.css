@@ -206,7 +206,7 @@ p {
 .work-intro { 
     margin-top: 2em;
     text-align: center;
-    width: 660px;
+    max-width: 660px;
     margin-bottom: 3em;}
 
 
@@ -640,9 +640,6 @@ hr { width: 150px;
      width: 150px;
      margin-left: 35.5%;
      margin-top: -1.2em;}
-    
-    
-    .work-intro {width: 470px;}
     
 
     .contact-home-title { margin-top: 44.5em;}
