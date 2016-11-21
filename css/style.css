@@ -624,7 +624,7 @@ hr { width: 150px;
 
 
 /*--------SMARTPHONE--------*/
-@media (max-width: 33em) {
+@media (max-width: 30em) {
 
     p, h1, h2, h3
 {
