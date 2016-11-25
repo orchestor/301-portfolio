@@ -196,7 +196,7 @@ p {
 /*---------PORTFOLIO-----*/
 
 
-.portfolio-intro { margin-top: 5.5em;}
+.portfolio-intro { margin-top: 7em;}
 
 .work-intro { 
     margin-top: 2em;
@@ -211,7 +211,7 @@ hr {
     border: 0;
     background-color: #6EC399;
     height: 3.5px;
-    margin-top: -1.8em;
+    margin-top: -2.3em;
 }
 
 	.caption-style-4{
@@ -404,7 +404,7 @@ background-size: cover;
 }
 
 footer p {
-  margin-top: 2em;
+  margin-top: 0.5em;
     margin-bottom: -1em;
   
   text-align: center;

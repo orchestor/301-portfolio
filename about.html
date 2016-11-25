@@ -13,6 +13,11 @@
 
 <script src="js/smooth-scroll.js"></script>
 
+<!-- Responive Nav -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
     <!-- Google Fonts -->
 
     <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -100,10 +105,13 @@
         </footer>
     
     
-
-<script>
-    smoothScroll.init();
-</script>
+<script type="text/javascript">
+      $(document).ready(function(){
+        $('.handle').on('click', function(){
+          $('nav ul').toggleClass('show');
+        });
+      });
+    </script>
     
     </body>
 </html>
