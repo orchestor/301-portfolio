@@ -244,7 +244,7 @@ hr {
 	}
 	.caption-style-4 img{
         z-index: 2;
-        width: 640px;
+        width: 632px;
 		margin: 0px;
 		padding: 0px;
 		float: left;
@@ -416,6 +416,9 @@ footer p {
 
 /*--------------------------------------- CASE STUDIES! -----------------------------------*/
 
+.case-intro { margin-top: -350px;}
+
+
 /*-----CASESTUDY1 - STUDYCUBE-----*/
 
 .bg-studycube{ background-image: url(../images/case1.png);
@@ -423,8 +426,6 @@ footer p {
     background-position: center center;
     height: 470px;
 }
-
-.case-intro { margin-top: 16em;}
 
 .brief { margin-top: 10em;}
 
@@ -495,7 +496,7 @@ footer p {
 .bg-brand{ background-image: url(../images/brand1.png);
     background-size: cover;
     background-position: center center;
-    height: 470px;
+    height: 450px;
 }
 
 .guidelines { color: #5DAF84;
@@ -515,8 +516,14 @@ footer p {
 
 .site-mockup { 
     max-width: 700px;
-    margin-bottom: 2em;}
+    margin-bottom: 1em;}
 
+.bird-mockup { 
+    max-width: 700px;
+    margin-top: -1em;
+    margin-bottom: -1em;}
+
+.bird-site-button { margin-bottom: 3em;}
 
 /*-----CASESTUDY3 - NARRATIVE WEBSITE-----*/
 
@@ -524,7 +531,7 @@ footer p {
     background-image: url(../images/bird-bg.png);
     background-size: cover;
     background-position: center center;
-    height: 470px;   
+    height: 450px;   
 }
 
 .style-tile {color: #5DAF84;
@@ -536,7 +543,7 @@ footer p {
     background-image: url(../images/case-four-bg.png);
     background-size: cover;
     background-position: center center;
-    height: 470px; 
+    height: 450px; 
 }
 
 
@@ -572,7 +579,7 @@ footer p {
 
 @media screen and (max-width: 1200px) { 
 
-.caption-style-4 img { width:590px;
+.caption-style-4 img { width:450px;
                         text-align: center;}
     
 .caption-style-4 .blur{height: 590px;
@@ -594,8 +601,8 @@ footer p {
 p, h1, h2, h3
 {
         width: 90%;}
-
-header { margin-top: -520px;}
+    
+header { margin-top: -510px;}
     
 .hero {height: 600px;}
     
@@ -629,7 +636,7 @@ hr { width: 150px;
 {
         width: 90%;}
     
-    header { margin-top: -460px;}
+    header { margin-top: -450px;}
     
     .hero {height: 500px;}
     
