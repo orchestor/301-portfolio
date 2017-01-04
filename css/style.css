@@ -79,10 +79,10 @@ nav {
     background-image: url(../images/bg-01.svg);
     background-size: cover;
     background-position: center center;
-    height: 726px;
+    height: 670px;
 }
 
-header { margin-top: -610px;}
+.main { margin-top: -560px;}
 
 
 .animatedimage {
@@ -188,7 +188,7 @@ h3 {
 p {
     line-height: 1.8em;
     margin-bottom: 2em;
-    font-size: 1em;
+    font-size: 1.05em;
 }
 
 
@@ -196,7 +196,8 @@ p {
 /*---------PORTFOLIO-----*/
 
 
-.portfolio-intro { margin-top: 7em;}
+.portfolio-intro { margin-top: 4em;
+                   margin-bottom: 4em;}
 
 .work-intro { 
     margin-top: 2em;
@@ -244,7 +245,7 @@ hr {
 	}
 	.caption-style-4 img{
         z-index: 2;
-        width: 632px;
+        width: 632.5px;
 		margin: 0px;
 		padding: 0px;
 		float: left;
@@ -311,15 +312,15 @@ hr {
 #contact-home hr { margin-top: -2em;}
 
 #contact-home p { 
-            max-width: 650px;
+            max-width: 750px;
             text-align: center;
             margin-top: 1.5em;
             margin-bottom: -0.5em;}
 
-.contact-home-title { margin-top: 17.8em;}
+.contact-home-title { margin-top: 18em;}
 
 .home-contact-button {  
-    margin-top: 2em;
+    margin-top: 3em;
     background-color: #6EC399;
     border: 3px solid #6EC399;
     color: #fff;
@@ -328,6 +329,7 @@ hr {
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
+    letter-spacing: 1px;
     border-radius: 5px;
     animation: fadeAndScale 2s ease-in;
     transform-origin: center bottom;
@@ -424,12 +426,16 @@ footer p {
 .bg-studycube{ background-image: url(../images/case1.png);
     background-size: cover;
     background-position: center center;
-    height: 470px;
+    height: 450px;
 }
 
 .brief { margin-top: 10em;}
 
 .brief p{ margin-top: 2em;}
+
+.bird-brief {margin-top: 12em;}
+
+.bird-brief p{ margin-top: 2em;}
 
 .approach p{ margin-top: 2em;}
 
@@ -442,25 +448,12 @@ footer p {
                 margin-top: 3.5em;}
 
 .sketches {
-    max-width: 100%;
     margin-top: 3.5em;
-    }
-
-.sketches ul {
-    text-align: center;
-    display: block;
-    }
-
-.sketches li {
-    list-style: none;
-    display: inline;
     }
 
 
 .sketches img {
     margin-top: -0.4em;
-    max-width: 424px;
-    border: none;
     }
 
 .approach { margin-top: -2em;}
@@ -486,7 +479,7 @@ footer p {
 .finished-app { 
     max-width: 750px;
     margin-top: -1em;
-    margin-bottom: 1.5em;}
+    margin-bottom: 2em;}
 
 
 
@@ -510,20 +503,16 @@ footer p {
 .brand-img { text-align: center;}
 
 .brand-identity { max-width: 750px;
+                  margin-top: 1.5em;
                   margin-bottom: 1em;}
 
-.site-sketches {margin-top: 1em;}
+.site-sketches {margin-top: 2em;}
 
 .site-mockup { 
     max-width: 700px;
     margin-bottom: 1em;}
 
-.bird-mockup { 
-    max-width: 700px;
-    margin-top: -1em;
-    margin-bottom: -1em;}
 
-.bird-site-button { margin-bottom: 3em;}
 
 /*-----CASESTUDY3 - NARRATIVE WEBSITE-----*/
 
@@ -536,6 +525,15 @@ footer p {
 
 .style-tile {color: #5DAF84;
              text-decoration: none;}
+
+.bird-mockup { 
+    max-width: 700px;
+    margin-top: -1em;
+    margin-bottom: -1em;}
+
+.bird-site-button { margin-bottom: 3em;}
+
+.bird-brief {margin-top: 12em;}
 
 /*-----CASESTUDY4 - MASTER & APPRENTICE-----*/
 
@@ -602,7 +600,7 @@ p, h1, h2, h3
 {
         width: 90%;}
     
-header { margin-top: -510px;}
+.main{ margin-top: -510px;}
     
 .hero {height: 600px;}
     
@@ -636,9 +634,9 @@ hr { width: 150px;
 {
         width: 90%;}
     
-    header { margin-top: -450px;}
+    .main { margin-top: -490px;}
     
-    .hero {height: 500px;}
+    .hero {height: 600px;}
     
     .animatedimage { width: 80px;}
     
@@ -678,9 +676,7 @@ hr { width: 150px;
         width: 200px;
 	}
 
-
 .finished-app {max-width: 350px;}
     
 .site-mockup { max-width: 350px;}
     
-   
